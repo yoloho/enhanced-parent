@@ -5,7 +5,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.yoloho.parent</groupId>
+        <groupId>com.yoloho.enhanced.parent</groupId>
         <artifactId>enhanced-parent-springboot-base</artifactId>
         <version>${revision}</version>
     </parent>

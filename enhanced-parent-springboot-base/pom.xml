@@ -5,7 +5,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.yoloho.parent</groupId>
+        <groupId>com.yoloho.enhanced.parent</groupId>
         <artifactId>enhanced-parent</artifactId>
         <version>${revision}</version>
     </parent>
@@ -26,11 +26,11 @@
     <dependencies>
         <!-- enhanced related -->
         <dependency>
-            <groupId>com.yoloho.common</groupId>
+            <groupId>com.yoloho.enhanced</groupId>
             <artifactId>enhanced-common</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yoloho.spring</groupId>
+            <groupId>com.yoloho.enhanced</groupId>
             <artifactId>enhanced-spring</artifactId>
         </dependency>
         <!-- logging -->

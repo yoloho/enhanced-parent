@@ -20,7 +20,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.yoloho.parent</groupId>
+    <groupId>com.yoloho.enhanced.parent</groupId>
     <artifactId>enhanced-parent</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
@@ -146,32 +146,32 @@
         <dependencies>
             <!-- enhanced related -->
             <dependency>
-                <groupId>com.yoloho.common</groupId>
+                <groupId>com.yoloho.enhanced</groupId>
                 <artifactId>enhanced-common</artifactId>
                 <version>${enhanced-common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yoloho.spring</groupId>
+                <groupId>com.yoloho.enhanced</groupId>
                 <artifactId>enhanced-spring</artifactId>
                 <version>${enhanced-spring.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yoloho.data</groupId>
+                <groupId>com.yoloho.enhanced.data</groupId>
                 <artifactId>enhanced-data-cache</artifactId>
                 <version>${enhanced-data.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yoloho.data</groupId>
+                <groupId>com.yoloho.enhanced.data</groupId>
                 <artifactId>enhanced-data-dao</artifactId>
                 <version>${enhanced-data.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yoloho.data</groupId>
+                <groupId>com.yoloho.enhanced.data</groupId>
                 <artifactId>enhanced-data-dao-api</artifactId>
                 <version>${enhanced-data.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yoloho.data</groupId>
+                <groupId>com.yoloho.enhanced.data</groupId>
                 <artifactId>enhanced-data-dao-sharding</artifactId>
                 <version>${enhanced-data.version}</version>
             </dependency>
