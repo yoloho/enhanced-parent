@@ -5,14 +5,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.yoloho</groupId>
+        <groupId>com.yoloho.parent</groupId>
         <artifactId>enhanced-parent-springboot-base</artifactId>
         <version>${revision}</version>
     </parent>
-    <groupId>com.yoloho</groupId>
     <artifactId>enhanced-parent-springboot-web</artifactId>
-    <packaging>pom</packaging>
     <name>enhanced-parent-springboot-web</name>
+    <packaging>pom</packaging>
     <description><![CDATA[
         Only simple webmvc, no redis, no database support
 		Including web

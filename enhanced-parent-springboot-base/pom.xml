@@ -5,14 +5,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.yoloho</groupId>
+        <groupId>com.yoloho.parent</groupId>
         <artifactId>enhanced-parent</artifactId>
         <version>${revision}</version>
     </parent>
-    <groupId>com.yoloho</groupId>
     <artifactId>enhanced-parent-springboot-base</artifactId>
-    <packaging>pom</packaging>
     <name>enhanced-parent-springboot-base</name>
+    <packaging>pom</packaging>
     <description>
         Enhanced Parent SpringBoot Base
 		No redis, no database support
@@ -27,11 +26,11 @@
     <dependencies>
         <!-- enhanced related -->
         <dependency>
-            <groupId>com.yoloho</groupId>
+            <groupId>com.yoloho.common</groupId>
             <artifactId>enhanced-common</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yoloho</groupId>
+            <groupId>com.yoloho.spring</groupId>
             <artifactId>enhanced-spring</artifactId>
         </dependency>
         <!-- logging -->
