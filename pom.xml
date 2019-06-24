@@ -80,7 +80,7 @@
         <slf4j.version>1.7.25</slf4j.version>
         <log4j.version>2.11.0</log4j.version>
         <commons-logging.version>1.2</commons-logging.version>
-        <protobuf.version>2.6.1</protobuf.version>
+        <protobuf.version>3.6.0</protobuf.version>
         <fastjson.version>1.2.48</fastjson.version>
         <!-- jackson.version定义有点歧义，考虑之后修改 -->
         <jackson.version>1.9.8</jackson.version>
@@ -107,7 +107,7 @@
         <asm.version>2.2.3</asm.version>
         <cglib.version>3.2.6</cglib.version>
         <aspectjweaver.version>1.9.2</aspectjweaver.version>
-        <guava.version>18.0</guava.version>
+        <guava.version>20.0</guava.version>
         <lombok.version>1.16.8</lombok.version>
         <owasp-encoder.version>1.2</owasp-encoder.version>
         <snappy.version>1.1.0.1</snappy.version>
