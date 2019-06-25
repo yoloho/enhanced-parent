@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ~ The MIT License (MIT) ~ ~ Copyright (c) 2019 ‭‭‭‭‭‭‭‭‭‭‭‭[smallbun] 
-    www.smallbun.org ~ ~ Permission is hereby granted, free of charge, to any 
-    person obtaining a copy of ~ this software and associated documentation files 
-    (the "Software"), to deal in ~ the Software without restriction, including 
-    without limitation the rights to ~ use, copy, modify, merge, publish, distribute, 
-    sublicense, and/or sell copies of ~ the Software, and to permit persons to 
-    whom the Software is furnished to do so, ~ subject to the following conditions: 
-    ~ ~ The above copyright notice and this permission notice shall be included 
-    in all ~ copies or substantial portions of the Software. ~ ~ THE SOFTWARE 
-    IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR ~ IMPLIED, 
-    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS ~ 
-    FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS 
-    OR ~ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
-    WHETHER ~ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT 
-    OF OR IN ~ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
-    SOFTWARE. -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -27,6 +11,24 @@
     <name>enhanced-parent</name>
     <description>Enhanced's Projects Dependencies Management</description>
     <url>https://github.com/yoloho/enhanced-parent</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>jason</name>
+            <email>hblzxsj@163.com</email>
+            <organization>yoloho</organization>
+            <organizationUrl>https://www.yoloho.com</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <url>https://github.com/yoloho/enhanced-parent</url>
+    </scm>
 
     <modules>
         <module>enhanced-parent-springboot-base</module>
@@ -140,6 +142,8 @@
         <maven-bundle-plugin.version>3.4.0</maven-bundle-plugin.version>
         <versions-maven-plugin.version>2.2</versions-maven-plugin.version>
         <lombok-maven-plugin.version>1.16.8.0</lombok-maven-plugin.version>
+        <maven-javadoc.version>2.9.1</maven-javadoc.version>
+        <maven-gpg.version>1.6</maven-gpg.version>
     </properties>
 
     <dependencyManagement>
@@ -1007,6 +1011,16 @@
                     <artifactId>flatten-maven-plugin</artifactId>
                     <version>${maven-flatten.version}</version>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>${maven-javadoc.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-gpg-plugin</artifactId>
+                    <version>${maven-gpg.version}</version>
+                </plugin>
             </plugins>
         </pluginManagement>
         <plugins>
@@ -1030,6 +1044,19 @@
                         <phase>clean</phase>
                         <goals>
                             <goal>clean</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
                         </goals>
                     </execution>
                 </executions>
