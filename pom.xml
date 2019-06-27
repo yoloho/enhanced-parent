@@ -38,13 +38,13 @@
 
     <properties>
         <revision>1.0.0</revision>
-        <java.source>1.8</java.source>
-        <java.target>1.8</java.target>
+        <java.source>1.6</java.source>
+        <java.target>1.6</java.target>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.source>${java.source}</maven.compiler.source>
+        <maven.compiler.target>${java.target}</maven.compiler.target>
 
         <!-- enhanced related -->
         <enhanced-common.version>1.0.0</enhanced-common.version>
@@ -1030,6 +1030,9 @@
                 <configuration>
                     <updatePomFile>true</updatePomFile>
                     <flattenMode>resolveCiFriendliesOnly</flattenMode>
+                    <pomElements>
+                        <build>remove</build>
+                    </pomElements>
                 </configuration>
                 <executions>
                     <execution>
