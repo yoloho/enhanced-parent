@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.3
+* Upgrade enhanced-data to 1.1.1
+
 ## 1.0.2
 * Upgrade dubbo to 2.7.4
 * Upgrade enhanced-common to 1.0.1
