@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.4
+* Fix definition of jackson's version
+
 ## 1.0.3
 * Upgrade enhanced-data to 1.1.1
 
