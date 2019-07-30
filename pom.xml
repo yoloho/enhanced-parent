@@ -37,7 +37,7 @@
     </modules>
 
     <properties>
-        <revision>1.0.5</revision>
+        <revision>1.0.6</revision>
         <java.source>1.6</java.source>
         <java.target>1.6</java.target>
 
@@ -775,15 +775,29 @@
 
             <!-- tbschedule -->
             <dependency>
-                <groupId>com.taobao.pamirs.schedule</groupId>
-                <artifactId>tbschedule</artifactId>
+                <groupId>com.yoloho.schedule</groupId>
+                <artifactId>tbschedule-core</artifactId>
                 <version>${tbschedule.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>*</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.yoloho.schedule</groupId>
+                <artifactId>tbschedule-extension-task</artifactId>
+                <version>${tbschedule.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yoloho.schedule</groupId>
+                <artifactId>tbschedule-storage-memory</artifactId>
+                <version>${tbschedule.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yoloho.schedule</groupId>
+                <artifactId>tbschedule-storage-redis</artifactId>
+                <version>${tbschedule.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yoloho.schedule</groupId>
+                <artifactId>tbschedule-storage-zookeeper</artifactId>
+                <version>${tbschedule.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.101tec</groupId>
