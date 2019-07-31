@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.7
+* Upgrade tbschedule to 4.1.2
+
 ## 1.0.6
 * Fix the groupId of new tbschedule libraries
 
