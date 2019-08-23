@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.9
+* Upgrade enhanced-spring to 1.0.2
+
 ## 1.0.8
 * Upgrade enhanced-common to 1.0.2
 * Upgrade enhanced-spring to 1.0.1
