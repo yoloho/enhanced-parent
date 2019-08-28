@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.10
+* Upgrade tbschedule to 4.1.3 (fix BatchTask problem)
+
 ## 1.0.9
 * Upgrade enhanced-spring to 1.0.2
 
