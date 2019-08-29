@@ -3,6 +3,9 @@ Manage enhanced projects' dependencies.
 
 # Release Notes
 ## 1.0.10
+* Upgrade enhanced-data to 1.1.2 (fix multiple `order by` bug)
+
+## 1.0.10
 * Upgrade tbschedule to 4.1.3 (fix BatchTask problem)
 
 ## 1.0.9
