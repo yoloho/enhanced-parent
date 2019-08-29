@@ -2,7 +2,7 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
-## 1.0.10
+## 1.0.11
 * Upgrade enhanced-data to 1.1.2 (fix multiple `order by` bug)
 
 ## 1.0.10
