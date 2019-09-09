@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.12
+* Upgrade tbschedule to 4.1.4 (Gracefully shutting down)
+
 ## 1.0.11
 * Upgrade enhanced-data to 1.1.2 (fix multiple `order by` bug)
 
@@ -10,6 +13,7 @@ Manage enhanced projects' dependencies.
 
 ## 1.0.9
 * Upgrade enhanced-spring to 1.0.2
+
 
 ## 1.0.8
 * Upgrade enhanced-common to 1.0.2
