@@ -2,6 +2,10 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.13
+* Upgrade tbschedule to 4.1.6
+* Upgrade enhanced-data to 1.1.3 (InitCache bug)
+
 ## 1.0.12
 * Upgrade tbschedule to 4.1.4 (Gracefully shutting down)
 
