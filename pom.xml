@@ -37,7 +37,7 @@
     </modules>
 
     <properties>
-        <revision>1.0.13</revision>
+        <revision>1.0.14</revision>
         <java.source>1.6</java.source>
         <java.target>1.6</java.target>
 
@@ -49,7 +49,7 @@
         <!-- enhanced related -->
         <enhanced-common.version>1.0.2</enhanced-common.version>
         <enhanced-spring.version>1.0.2</enhanced-spring.version>
-        <enhanced-data.version>1.1.3</enhanced-data.version>
+        <enhanced-data.version>1.1.4</enhanced-data.version>
         <!-- tbschedule -->
         <tbschedule.version>4.1.6</tbschedule.version>
         <!-- sentinel -->

@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.14
+* Upgrade enhanced-data to 1.1.4 (Local cache ttl bug)
+
 ## 1.0.13
 * Upgrade tbschedule to 4.1.6
 * Upgrade enhanced-data to 1.1.3 (InitCache bug)
