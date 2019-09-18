@@ -3,7 +3,7 @@ Manage enhanced projects' dependencies.
 
 # Release Notes
 ## 1.0.15
-* Make sure `EnhancedDaoScanner` initialized before `EnhancedDao`s initialized
+* Upgrade enhanced-data to 1.1.6 (`EnhancedDaoScanner` initialized order and support custom mappers)
 
 ## 1.0.14
 * Upgrade enhanced-data to 1.1.4 (Local cache ttl bug)
