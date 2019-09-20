@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.16
+* Upgrade enhanced-spring to 1.0.3 (Optimized `CustomExceptionHandler`)
+
 ## 1.0.15
 * Upgrade enhanced-data to 1.1.6 (`EnhancedDaoScanner` initialized order and support custom mappers)
 
