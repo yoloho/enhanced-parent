@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.17
+* Upgrade jackson to avoid security issue.
+
 ## 1.0.16
 * Upgrade enhanced-spring to 1.0.3 (Optimized `CustomExceptionHandler`)
 
