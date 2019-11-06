@@ -2,6 +2,9 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.18
+* Upgrade jackson to 2.10.0 for security.
+
 ## 1.0.17
 * Upgrade jackson to avoid security issue.
 * Upgrade enhanced-data to 1.1.7 (DistributedLock.keep issue)
