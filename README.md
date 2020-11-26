@@ -2,6 +2,16 @@
 Manage enhanced projects' dependencies.
 
 # Release Notes
+## 1.0.19
+* Upgrade quartz to 2.3.2 from 2.2.1
+* Upgrade htmlunit to 2.37.0 from 2.14
+* Upgrade commons-collections to 3.2.2 from 3.2.1
+* Upgrade log4j to 2.13.3 from 2.11.0
+* Upgrade spring to 5.2.3 from 5.1.5
+* Upgrade mysql-connector-java to 8.0.16 from 5.1.30
+* Upgrade commons-beanutils to 1.9.4 from 1.7.0
+* Upgrade junit to 4.13.1 from 4.12
+
 ## 1.0.18
 * Upgrade jackson to 2.10.0 for security.
 
