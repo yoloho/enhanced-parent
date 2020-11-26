@@ -107,7 +107,7 @@
         <asm.version>2.2.3</asm.version>
         <cglib.version>3.2.6</cglib.version>
         <aspectjweaver.version>1.9.2</aspectjweaver.version>
-        <guava.version>24.1.1</guava.version>
+        <guava.version>30.0-jre</guava.version>
         <lombok.version>1.16.8</lombok.version>
         <owasp-encoder.version>1.2</owasp-encoder.version>
         <snappy.version>1.1.0.1</snappy.version>

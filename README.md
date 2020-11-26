@@ -11,7 +11,7 @@ Manage enhanced projects' dependencies.
 * Upgrade mysql-connector-java to 8.0.16 from 5.1.30
 * Upgrade commons-beanutils to 1.9.4 from 1.7.0
 * Upgrade junit to 4.13.1 from 4.12
-* Upgrade guava to 24.1.1 from 20.0
+* Upgrade guava to 30.0-jre from 20.0
 * Remove legacy `jackson-core-asl` and `jackson-mapper-asl`
 
 ## 1.0.18
