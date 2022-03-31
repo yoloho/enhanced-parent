@@ -57,7 +57,7 @@
 
         <!-- Dependency versions -->
         <tomcat.version>8.0.18</tomcat.version>
-        <spring.version>5.2.3.RELEASE</spring.version>
+        <spring.version>5.3.18</spring.version>
         <servlet-api.version>2.4</servlet-api.version>
         <java.servlet-api.version>3.1.0</java.servlet-api.version>
         <jstl.version>1.2</jstl.version>
