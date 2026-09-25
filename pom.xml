@@ -65,7 +65,7 @@
         <dubbo.version>2.7.21</dubbo.version>
         <javassist.version>3.20.0-GA</javassist.version>
         <netty.version>3.2.5.Final</netty.version>
-        <zookeeper.version>3.4.14</zookeeper.version>
+        <zookeeper.version>3.8.6</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
         <zkclient1.version>0.10</zkclient1.version>
         <curator.version>4.0.1</curator.version>
