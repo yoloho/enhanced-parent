@@ -91,7 +91,7 @@
         <commons-io.version>2.7</commons-io.version>
         <commons-lang3.version>3.3.2</commons-lang3.version>
         <commons-codec.version>1.9</commons-codec.version>
-        <commons-beanutils.version>1.9.4</commons-beanutils.version>
+        <commons-beanutils.version>1.11.0</commons-beanutils.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <httpclient.version>4.5.13</httpclient.version>
         <quartz.version>2.3.2</quartz.version>
