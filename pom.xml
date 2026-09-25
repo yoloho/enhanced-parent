@@ -99,7 +99,7 @@
         <mockito.version>2.23.4</mockito.version>
         <powermock.version>1.7.4</powermock.version>
         <rocketmq.version>4.1.0-incubating</rocketmq.version>
-        <freemarker.version>2.3.23</freemarker.version>
+        <freemarker.version>2.3.35</freemarker.version>
         <aliyun-opensearch.version>2.1.2</aliyun-opensearch.version>
         <ons-client.version>1.7.1.Final</ons-client.version>
         <aliyun-ots.version>2.0.4</aliyun-ots.version>
